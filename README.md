@@ -1,5 +1,5 @@
 # Detect-beans-seasons-1
-Một mô hình sử dụng phiên bản YOLO vừa được ra mắt (YOLO v12) đã được finetune trên các bộ datasets về hạt đậu, nhằm tối đa hóa được số lượng chính xác nhất về số hạt đậu có trong hai ảnh đã được cho sẵn, mô hình này còn sử dụng thêm nhiều các phương pháp tiền xử lý ảnh nhằm làm tăng độ chính xác đến 97%.
+Một mô hình sử dụng phiên bản YOLO vừa được ra mắt (YOLO v12m) đã được finetune trên các bộ datasets về hạt đậu, nhằm tối đa hóa được số lượng chính xác nhất về số hạt đậu có trong hai ảnh đã được cho sẵn, mô hình này còn sử dụng thêm nhiều các phương pháp tiền xử lý ảnh nhằm làm tăng độ chính xác đến 97%.
 
 ## Giới thiệu
 Số hạt đậu trong hai bức ảnh đã được đếm gần chính xác nhất bằng cách:
@@ -35,7 +35,7 @@ pip install opencv-python ultralytics mathplotplip numpy PIL-dotenv Path shutil 
 
 3. **Chuẩn bị file mô hình YOLO:**
 
-   Đảm bảo file mô hình (ví dụ `30-70-120.pt`) nằm trong thư mục dự án hoặc cập nhật đường dẫn chính xác trong code.
+   Đảm bảo file mô hình (ví dụ `best.pt`) nằm trong thư mục dự án hoặc cập nhật đường dẫn chính xác trong code.
 
 ---
 
@@ -43,10 +43,10 @@ pip install opencv-python ultralytics mathplotplip numpy PIL-dotenv Path shutil 
 
 ```
 project/
-├── main.py                # Code chính của dự án
-├── 30-70-120.pt           # File mô hình YOLO đã fine-tuned
-├── 1234.jpg               # Ảnh test dùng để đếm số hạt
-└── README.md              # Tài liệu hướng dẫn dự án (README này)
+├── main.ipynb              # Code chính của dự án
+├── best.pt                 # File mô hình YOLO đã fine-tuned
+├── example.jpg             # Ảnh test dùng để đếm số hạt
+└── README.md               # Tài liệu hướng dẫn dự án (README này)
 ```
 
 ---
@@ -56,7 +56,7 @@ project/
 project/
 └──/Train
     ├── datasets        # Dataset để train
-    ├── datasets.ipynp  # Chạy file notebook để gộp 5 file datasets thành 1 file duy nhất    
+    ├── datasets.ipynb  # Chạy file notebook để gộp 5 file datasets thành 1 file duy nhất    
     └──/train.ipynb     # Chạy file notebook này để train lại mô hình
 ```
 ---
