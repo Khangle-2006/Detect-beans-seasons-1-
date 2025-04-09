@@ -56,6 +56,7 @@ project/
 project/
 └──/Train
     ├── datasets        # Dataset để train
+    ├── datasets.ipynp  # Chạy file notebook để gộp 5 file datasets thành 1 file duy nhất    
     └──/train.ipynb     # Chạy file notebook này để train lại mô hình
 ```
 ---
