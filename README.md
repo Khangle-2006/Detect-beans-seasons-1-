@@ -1,5 +1,5 @@
 # Detect-beans-seasons-1
-Một mô hình sử dụng phiên bản YOLO vừa được ra mắt (YOLO v12m) đã được finetune trên các bộ datasets về hạt đậu, nhằm tối đa hóa được số lượng chính xác nhất về số hạt đậu có trong hai ảnh đã được cho sẵn, mô hình này còn sử dụng thêm nhiều các phương pháp tiền xử lý ảnh nhằm làm tăng độ chính xác đến 97%.
+Một mô hình sử dụng phiên bản YOLO vừa được ra mắt (YOLO v12m) đã được finetune trên các bộ datasets về hạt đậu (lấy link Google Drive về datasets ở phía dưới), nhằm tối đa hóa được số lượng chính xác nhất về số hạt đậu có trong hai ảnh đã được cho sẵn, mô hình này còn sử dụng thêm nhiều các phương pháp tiền xử lý ảnh nhằm làm tăng độ chính xác đến 97%.
 
 ## Giới thiệu
 Số hạt đậu trong hai bức ảnh đã được đếm gần chính xác nhất bằng cách:
@@ -60,3 +60,6 @@ project/
     └──/train.ipynb     # Chạy file notebook này để train lại mô hình
 ```
 ---
+
+## Vui lòng truy cập link này để lấy datasets finetune cho mô hình YOLO v12m:
+https://drive.google.com/drive/folders/18-1La3nzffX1qdyd23EIFcdIgW6kwnUt?usp=drive_link
