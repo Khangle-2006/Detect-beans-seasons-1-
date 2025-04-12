@@ -42,7 +42,7 @@ pip install opencv-python ultralytics mathplotplip numpy PIL-dotenv Path shutil 
 ## Cấu trúc dự án
 
 ```
-project/
+project
 ├── main.ipynb              # Code chính của dự án
 ├── best.pt                 # File mô hình YOLO đã fine-tuned
 ├── example.jpg             # Ảnh test dùng để đếm số hạt
@@ -53,11 +53,11 @@ project/
 
 ## Train lại mô hình detection để đếm được chính xác số hạt
 ```
-project/
-└──/Train
+project
+└──Train
     ├── datasets        # Dataset để train
     ├── datasets.ipynb  # Chạy file notebook để gộp 5 file datasets thành 1 file duy nhất    
-    └──/train.ipynb     # Chạy file notebook này để train lại mô hình
+    └── train.ipynb     # Chạy file notebook này để train lại mô hình
 ```
 ---
 
