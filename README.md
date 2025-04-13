@@ -2,6 +2,11 @@
 Một mô hình sử dụng phiên bản YOLO vừa được ra mắt (YOLO v12m) đã được finetune trên các bộ datasets về hạt đậu (lấy link Google Drive về datasets ở phía dưới), nhằm tối đa hóa được số lượng chính xác nhất về số hạt đậu có trong hai ảnh đã được cho sẵn, mô hình này còn sử dụng thêm nhiều các phương pháp tiền xử lý ảnh nhằm làm tăng độ chính xác đến 97%.
 
 ## Giới thiệu
+Dự án này có mục đích đếm số hạt đậu trong hai bức ảnh sau đạt được độ chính xác trên 97%:
+
+![Pic_2](https://github.com/user-attachments/assets/6f785471-f11e-421b-81ca-0be9bdc0f643)
+![Pic_1](https://github.com/user-attachments/assets/7432a83c-1851-4e30-bcc7-f69226aa2e39)
+
 Số hạt đậu trong hai bức ảnh đã được đếm gần chính xác nhất bằng cách:
 - **Sử dụng mô hình YOLO (v12m) đã được finetune trên 5 bộ datasets khác nhau về hạt đậu, 5 bộ dataset này được lấy trên roboflow.**
 - **Sử dụng thêm nhiều phương pháp tiền xử lý hình ảnh để làm tăng thêm độ chính xác.**
