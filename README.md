@@ -44,7 +44,7 @@ pip install opencv-python ultralytics mathplotplip numpy PIL-dotenv Path shutil 
 ```
 project
 ├── main.ipynb              # Code chính của dự án
-├── best.pt                 # File mô hình YOLO đã fine-tuned
+├── best.pt                 # File mô hình YOLO đã fine-tuned (vì file best.pt khá nặng nên không thể upload lên github, file đã được đính kém trong link Google Drive datasets)
 ├── example.jpg             # Ảnh test dùng để đếm số hạt
 └── README.md               # Tài liệu hướng dẫn dự án (README này)
 ```
